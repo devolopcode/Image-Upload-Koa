@@ -1,0 +1,71 @@
+app started at port 5556...
+  <-- GET /note/img/show/default.png
+hello world
+  --> GET /note/img/show/default.png 200 5ms 2.58kb
+  <-- GET /favicon.ico
+  --> GET /favicon.ico 404 3ms -
+  <-- GET /note/img/show/default.png
+hello world
+  --> GET /note/img/show/default.png 200 1ms 2.58kb
+  <-- GET /note/img/show/deault.png
+hello world
+  --> GET /note/img/show/deault.png 200 1ms 2.58kb
+  <-- GET /note/img/show/file.png
+hello world
+  --> GET /note/img/show/file.png 200 1ms 14.61kb
+  <-- GET /note/img/show/file.png
+hello world
+  --> GET /note/img/show/file.png 200 1ms 14.61kb
+  <-- GET /note/like
+  --> GET /note/like 404 0ms -
+  <-- GET /note/agree
+  --> GET /note/agree 404 1ms -
+  <-- GET /note/like
+  --> GET /note/like 404 1ms -
+  <-- GET /note/agree
+  --> GET /note/agree 404 2ms -
+  <-- GET /note/img/show/deault.png
+hello world
+  --> GET /note/img/show/deault.png 200 1ms 2.58kb
+  <-- POST /note/img/upload
+  --> POST /note/img/upload 200 9ms 52b
+app started at port 5556...
+  <-- GET /note/img/show/x.png
+hello world
+  --> GET /note/img/show/x.png 200 5ms 2.58kb
+  <-- POST /note/img/upload
+  --> POST /note/img/upload 200 10ms 52b
+  <-- POST /note/img/upload
+  --> POST /note/img/upload 200 3ms 52b
+  <-- POST /note/img/upload
+  --> POST /note/img/upload 200 1ms 52b
+  <-- POST /note/img/upload
+  --> POST /note/img/upload 200 22ms 52b
+  <-- POST /note/img/upload
+  --> POST /note/img/upload 200 1ms 52b
+  <-- POST /note/img/upload
+  --> POST /note/img/upload 200 1ms 52b
+  <-- POST /note/img/upload
+  --> POST /note/img/upload 200 1ms 52b
+  <-- POST /note/img/upload
+  --> POST /note/img/upload 200 1ms 52b
+  <-- GET /note/img/show/nVXiqaBjTobr5051f48182af5d9f62669fa8dfd5cea7.png
+hello world
+  --> GET /note/img/show/nVXiqaBjTobr5051f48182af5d9f62669fa8dfd5cea7.png 200 1ms 1.93kb
+  <-- GET /note/img/show/nVXiqaBjTobr5051f48182af5d9f62669fa8dfd5cea7.png
+hello world
+  --> GET /note/img/show/nVXiqaBjTobr5051f48182af5d9f62669fa8dfd5cea7.png 200 0ms 2.58kb
+  <-- POST /note/img/upload
+  --> POST /note/img/upload 200 2ms 52b
+  <-- POST /note/img/upload
+  --> POST /note/img/upload 200 1ms 52b
+  <-- GET /note/img/show/nVXiqaBjTobr5051f48182af5d9f62669fa8dfd5cea7.png
+hello world
+  --> GET /note/img/show/nVXiqaBjTobr5051f48182af5d9f62669fa8dfd5cea7.png 200 0ms 2.58kb
+  <-- GET /note/img/show/JpcMqzmEHUBn3774b95186174b3ab8c10b438c018f3a.png
+hello world
+  --> GET /note/img/show/JpcMqzmEHUBn3774b95186174b3ab8c10b438c018f3a.png 200 0ms 22.27kb
+  <-- POST /note/img/upload
+  --> POST /note/img/upload 200 2ms 52b
+  <-- POST /note/img/upload
+  --> POST /note/img/upload 200 1ms 52b
